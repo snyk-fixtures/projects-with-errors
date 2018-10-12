@@ -1,0 +1,11 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    formtastic-bootstrap (2.0.0)
+      formtastic-bootstrap
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  formtastic-bootstrap
