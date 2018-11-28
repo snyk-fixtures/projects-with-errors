@@ -11,6 +11,7 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "@dominykas/test-two": "^1.1.0"
+    "@dominykas/test-two": "^1.1.0",
+    "@dominykas/test-one": "^1.0.0"
   }
 }
