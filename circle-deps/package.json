@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "version": "0.0.3",
+  "description": "A vulnerable test application",
+  "homepage": "https://snyk.io/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Snyk/snyk-test-demo-app/"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@dominykas/test-two": "^1.1.0"
+  }
+}
