@@ -34,9 +34,14 @@
     "tap": "^5.7.0",
     "adm-zip": "0.4.7",
     "file-type": "^8.1.0",
-    "snyk": "*"
+    "snyk": "^1.116.2"
   },
   "devDependencies": {
-    "browserify": "^13.1.1"
-  }
+    "browserify": "^13.3.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
