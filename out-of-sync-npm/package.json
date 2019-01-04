@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "1.18.3",
+    "body-parser": "1.18.2",
     "debug": "4.1.1",
     "snyk": "1.120.1",
     "co": "4.6.0"
