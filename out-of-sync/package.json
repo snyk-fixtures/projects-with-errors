@@ -34,7 +34,7 @@
     "tap": "^5.7.0",
     "adm-zip": "0.4.7",
     "file-type": "^8.1.0",
-    "snyk": "*",
+    "snyk": "^1.190.0",
     "lodash": "4.17.11",
     "request": "^2.4.1",
     "chalk": "~2.4.0",
@@ -42,5 +42,10 @@
   },
   "devDependencies": {
     "browserify": "^13.1.1"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
