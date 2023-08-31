@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@snyk/protect@^1.1209.0":
+  version "1.1209.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1209.0.tgz#9e938362cf684576ead289916274cf8bd5f4e0ce"
+  integrity sha512-E370Imyh7tnkgaYJdjL+Skb7thgcPcSiIISbUhA6/ZtjKGzGLveLXGAjID9nQlizoO+P+D3UfssnE16GJZjWPw==
+
 JSONStream@^1.0.3:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/JSONStream/-/JSONStream-1.3.3.tgz#27b4b8fbbfeab4e71bcf551e7f27be8d952239bf"
@@ -700,13 +705,6 @@ cross-spawn-async@^2.1.1:
   dependencies:
     lru-cache "^4.0.0"
     which "^1.2.8"
-
-cross-spawn@^4:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-4.0.2.tgz#7b9247621c23adfdd3856004a823cbe397424d41"
-  dependencies:
-    lru-cache "^4.0.1"
-    which "^1.2.9"
 
 cryptiles@0.2.x:
   version "0.2.2"
@@ -1562,10 +1560,6 @@ isexe@^1.0.0, isexe@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-1.1.2.tgz#36f3e22e60750920f5e7241a476a8c6a42275ad0"
 
-isexe@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
-
 isobject@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-2.1.0.tgz#f065561096a3f1da2ef46272f815c840d87e0c89"
@@ -1662,12 +1656,6 @@ kareem@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/kareem/-/kareem-1.0.1.tgz#7805d215bb53214ec3af969a1d0b1f17e3e7b95c"
 
-kerberos@~0.0:
-  version "0.0.24"
-  resolved "https://registry.yarnpkg.com/kerberos/-/kerberos-0.0.24.tgz#67e5fe0f0dbe240a505eb45de411d6031e7b381b"
-  dependencies:
-    nan "~2.10.0"
-
 kind-of@^3.0.2:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-3.0.3.tgz#c61608747d815b0362556db3276362a7a38aded3"
@@ -1746,13 +1734,6 @@ lru-cache@^4.0.0:
   dependencies:
     pseudomap "^1.0.1"
     yallist "^2.0.0"
-
-lru-cache@^4.0.1:
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-4.1.3.tgz#a1175cf3496dfc8436c156c334b4955992bce69c"
-  dependencies:
-    pseudomap "^1.0.2"
-    yallist "^2.1.2"
 
 lru-cache@~2.3:
   version "2.3.1"
@@ -1923,31 +1904,32 @@ moment@2.15.1:
   version "2.15.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.15.1.tgz#e979c2a29e22888e60f396f2220a6118f85cd94c"
 
-mongodb-core@1.2.19:
-  version "1.2.19"
-  resolved "https://registry.yarnpkg.com/mongodb-core/-/mongodb-core-1.2.19.tgz#fcb35f6b6abc5c3de1f1a4a5db526b9e306f3eb7"
+mongodb-core@1.2.21:
+  version "1.2.21"
+  resolved "https://registry.yarnpkg.com/mongodb-core/-/mongodb-core-1.2.21.tgz#3bcbccd31147b8cf0134c0da52675f121b1ea3fb"
+  integrity sha512-BoUwbWKWgVO58WoVwsdDmVcxvRU5ss1MlVvfzzVARzPkRbe7bV1pKLvHzJPfrJdXL9Vrikq6gS0OxY1gaVUnVA==
   dependencies:
     bson "~0.4.19"
-  optionalDependencies:
-    kerberos "~0.0"
 
-mongodb@2.0.46:
-  version "2.0.46"
-  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-2.0.46.tgz#b1b857465e45e259b1e0e033698341a64cb93559"
+mongodb@2.0.48:
+  version "2.0.48"
+  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-2.0.48.tgz#f0eee445e8f2241c4b96658b8697e17ddabb9da3"
+  integrity sha512-v9WAjHBXg9kfICEzdS4wbQbCjZnbCEWtEETbe44Tj6W5i3gULiyW2piYAAVwzWSRHblJhssvpHlpeDjeTsh8Ug==
   dependencies:
     es6-promise "2.1.1"
-    mongodb-core "1.2.19"
+    mongodb-core "1.2.21"
     readable-stream "1.0.31"
 
-mongoose@4.2.4:
-  version "4.2.4"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-4.2.4.tgz#e2f8c007dd838f6633b4f6c965ba92a232ac9317"
+mongoose@4.2.5:
+  version "4.2.5"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-4.2.5.tgz#563a3d5b8e90fb107eb15f95471c70630638fb7e"
+  integrity sha512-Q8c5bgfO8Gr6nYOiGKZdboFYFZ6vHntfsVHWCTgUpdbQxfCcYvH8DQRiMxGzZEB2yjj6pWobK8khsELG0qvYAA==
   dependencies:
     async "0.9.0"
     bson "~0.4.18"
     hooks-fixed "1.1.0"
     kareem "1.0.1"
-    mongodb "2.0.46"
+    mongodb "2.0.48"
     mpath "0.1.1"
     mpromise "0.5.4"
     mquery "1.6.3"
@@ -2002,10 +1984,6 @@ ms@~0.6.2:
 muri@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/muri/-/muri-1.0.0.tgz#de3bf6bd71d67eae71d76689b950d2de118695c6"
-
-nan@~2.10.0:
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-2.10.0.tgz#96d0cd610ebd58d4b4de9cc0c6828cda99c7548f"
 
 negotiator@0.4.9:
   version "0.4.9"
@@ -2347,7 +2325,7 @@ proxy-addr@~1.0.8:
     forwarded "~0.1.0"
     ipaddr.js "1.0.5"
 
-pseudomap@^1.0.1, pseudomap@^1.0.2:
+pseudomap@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
 
@@ -3176,12 +3154,6 @@ which@^1.1.1, which@^1.2.1, which@^1.2.4, which@^1.2.8:
   dependencies:
     isexe "^1.1.1"
 
-which@^1.2.9:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/which/-/which-1.3.1.tgz#a45043d54f5805316da8d62f9f50918d3da70b0a"
-  dependencies:
-    isexe "^2.0.0"
-
 window-size@0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/window-size/-/window-size-0.1.0.tgz#5438cd2ea93b202efa3a19fe8887aee7c94f9c9d"
@@ -3231,10 +3203,6 @@ y18n@^3.2.1:
 yallist@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-2.0.0.tgz#306c543835f09ee1a4cb23b7bce9ab341c91cdd4"
-
-yallist@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
 
 yargs-parser@^2.4.0:
   version "2.4.0"
